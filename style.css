@@ -1,0 +1,605 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.icon-bar {
+  background-color: #666 !important;
+}
+
+.navbar-brand {
+  font-size: 25px!important;
+  color: #666 !important;
+}
+
+.navbar-brand:hover {
+  color: #666 !important;
+}
+
+.nav li {
+  font-size: 20px !important;
+  color: black !important;
+}
+
+.box-shadow {
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16),
+    0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.navbar-bg-c {
+  background-color: white !important;
+  border: none !important;
+}
+
+.navbar-inverse {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.bg-c {
+	background-color: transparent !important;
+}
+
+.navbar-animate-top {
+  position: relative;
+  animation: animatetop 0.4s;
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.img-1 {
+  background-image: url("https://i.imgur.com/MJnkYjM.jpg");
+  min-height: 100%;
+  position: relative;
+  opacity: 0.8;
+  overflow: hidden;
+}
+
+.img-1 p {
+  background-color: black;
+  padding: 8px 10px 8px 10px;
+  font-size: 35px;
+  overflow: hidden;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-1 p:hover {
+  background-color: #999;
+}
+
+.div-img img {
+  opacity: 0.6;
+}
+
+.p-1 {
+  margin: auto;
+  max-width: 1000px;
+  padding-top: 50px;
+  overflow: hidden;
+}
+
+.p-1 h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.txt-cntr {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.p1-p1 {
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+.p1-p1,
+.p2-p2 {
+  text-align: left;
+}
+
+.p2-p2 {
+  max-width: 250px;
+  float: right;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.div-img img {
+  width: 100%;
+}
+
+.skills {
+  margin: auto;
+}
+
+.skill-set {
+  padding: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.skill-set i {
+  font-size: 20px;
+}
+
+.skill-name {
+  width: 100%;
+  text-align: left;
+  color: #616161;
+  font-size: 18px;
+  letter-spacing: 10px;
+}
+.reputation {
+  overflow: hidden;
+}
+
+.skill-name i {
+  overflow: hidden;
+}
+
+.percent {
+  background-color: #f1f1f1;
+  color: white;
+  width: 100%;
+}
+
+.percent p {
+  text-align: right;
+  padding: 10px;
+  background-color: #616161;
+}
+
+.one p {
+  width: 90%;
+}
+
+.two p {
+  width: 85%;
+}
+
+.three p {
+  width: 80%;
+}
+
+.reputation {
+  background-color: #616161;
+  color: white;
+  margin-top: 70px;
+}
+
+.reputation p {
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  padding: 20px;
+  font-size: 17px;
+}
+
+.img-2 {
+  background-image: url("https://i.imgur.com/GdGt8fe.jpg");
+  min-height: 50%;
+  position: relative;
+  opacity: 0.8;
+  overflow: hidden;
+}
+
+.img-2 p {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  transform: translate(-50%, -50%);
+}
+
+.photo-list {
+  margin: auto;
+  max-width: 1000px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.photo-list h3 {
+  padding-bottom: 15px;
+}
+
+.photo-list p {
+  padding-bottom: 40px !important;
+}
+
+/* Img--------gallery */
+
+.abc-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-responsive:hover {
+  opacity: 0.7;
+}
+
+.img-zoom {
+  z-index: 3;
+  display: none;
+  padding-top: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.zoom-in-color,
+.zoom-in-color:hover {
+  color: #fff !important;
+  background-color: #000 !important;
+}
+.content {
+  margin: auto;
+  background-color: #fff;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  max-width: 600px;
+}
+
+.animation-zoom {
+  animation: zoomin 0.6s;
+}
+
+@keyframes zoomin {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.text-position {
+  text-align: center !important;
+}
+
+.transparency {
+  background-color: transparent !important;
+}
+
+.padding {
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
+}
+
+.font-size {
+  font-size: 18px !important;
+}
+
+.opacity {
+  opacity: 0.6;
+}
+
+.button {
+  border: none;
+  display: inline-block;
+  outline: 0;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.button:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
+}
+
+.display-topright {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.photo-list {
+  overflow: hidden;
+}
+
+.photo-list p {
+  padding-bottom: 20px;
+}
+
+.photo-list h3 {
+  padding-top: 20px;
+}
+
+.photo-list h3,
+.photo-list p {
+  text-align: center;
+  color: #999;
+}
+
+/* Img--------gallery */
+
+.img-responsive {
+  cursor: pointer;
+}
+
+.btn {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-style: none !important;
+  border-radius: 0;
+  padding: 12px 24px;
+}
+
+.btn:hover {
+  background-color: #999;
+}
+
+.center {
+  text-align: center !important;
+}
+
+.img-3 {
+  background-image: url("https://i.imgur.com/qyGlVSZ.jpg");
+  min-height: 50%;
+  position: relative;
+  opacity: 0.8;
+  overflow: hidden;
+}
+
+.img-3 p {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  transform: translate(-50%, -50%);
+}
+
+.img-p {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  transform: translate(-50%, -50%);
+}
+
+.footer {
+  color: #666;
+}
+
+.form {
+  padding-top: 25px;
+  line-height: 50px;
+}
+
+.name {
+  width: 50%;
+  border: 1px solid lightgray;
+  padding-left: 2px;
+}
+
+.email {
+  width: 49%;
+  border: 1px solid lightgray;
+  padding-left: 2px;
+}
+
+.message {
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border: 1px solid lightgray;
+  padding-left: 2px;
+}
+
+.submit {
+  color: white;
+  border: none;
+  background-color: black;
+  padding: 12px 24px;
+  font-size: 14px;
+  line-height: normal !important;
+  float: right;
+  width: 40%;
+}
+
+.submit:hover {
+  color: black;
+  background-color: #999;
+  border: none;
+}
+
+.fa-paper-plane {
+  font-size: 14px !important;
+}
+
+.adress {
+  font-size: 17px;
+  line-height: 35px;
+}
+
+.adress i {
+  font-size: 20px;
+  width: 1.28em;
+  text-align: center;
+}
+
+.footer {
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+.footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.adress {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.adress i {
+  margin-right: 16px;
+}
+
+.adress-top {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 35px;
+  line-height: 50px;
+}
+
+.adress-top i {
+  width: 20px;
+}
+
+.bottom {
+  background-color: #666;
+  text-align: center;
+  color: #666;
+  overflow: hidden;
+}
+.bottom:hover {
+  background-color: black;
+  color: black;
+}
+
+.back-to-top {
+  margin-top: 100px;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  padding: 14px 16px;
+  color: inherit;
+}
+
+.back-to-top:hover {
+  background-color: #d3d3d3 !important;
+}
+
+.social {
+  color: white !important;
+  font-size: 30px !important;
+  padding-top: 15px;
+  padding-bottom: 100px;
+}
+
+.social i:hover {
+  color: #d3d3d3;
+  cursor: pointer;
+}
+
+.block {
+  display: block !important;
+}
+
+@media only screen and (min-width: 768px) {
+  #xmyNavbar {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .p1-p1 {
+    width: 80%;
+  }
+  .p2-p2 {
+    display: none;
+  }
+  .div-img {
+    width: 100%;
+  }
+  .skills {
+    width: 95%;
+  }
+  .adress {
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+  }
+  .form input {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .container-fluid .row .col-3 {
+    width: 98% !important;
+  }
+}
