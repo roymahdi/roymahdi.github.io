@@ -61,8 +61,7 @@ html {
 }
 
 .img-1 {
- /* background-image: url("https://i.imgur.com/MJnkYjM.jpg"); */
-  background-image: url("https://i.imgur.com/iPl2sXS.jpg");
+  background-image: url("https://i.imgur.com/MJnkYjM.jpg");
   min-height: 100%;
   position: relative;
   opacity: 0.8;
